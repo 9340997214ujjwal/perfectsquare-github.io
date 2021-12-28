@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Square</title>
+</head>
+<body>
+    <h2>Print the number is perfect square or not </h2>
+    <script>
+        var isSquare = function (n) {
+           let square = n > 0 && Math.sqrt(n) % 1 === 0;
+           console.log(square); 
+        }
+        isSquare(64);
+        isSquare(72);
+        isSquare(125);
+        isSquare(121);
+
+    </script>
+    
+</body>
+</html>
